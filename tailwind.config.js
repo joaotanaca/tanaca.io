@@ -7,7 +7,12 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    colors,
+    extend: {
+      colors,
+      borderRadius: {
+        '4xl': '2.375rem',
+      },
+    },
   },
   plugins: [],
 };

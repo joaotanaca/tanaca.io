@@ -16,5 +16,7 @@ module.exports = {
   rules: {
     'require-jsdoc': 'off',
     'object-curly-spacing': 'off',
+    'max-len': 'off',
+    'arrow-parens': 'off',
   },
 };

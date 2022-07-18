@@ -7,7 +7,7 @@ type Props = {
 
 const colors = {
   primary: {
-    default: 'bg-green-500',
+    default: 'text-white bg-green-500',
     soft: 'bg-green-100 text-green-500',
   },
   secondary: {

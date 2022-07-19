@@ -1,8 +1,8 @@
 import React from 'react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Navbar from '@components/layout/Navbar';
-import Hero from '@components/molecules/Hero';
+import Navbar from '@layout/Navbar';
+import Hero from '@organisms/Hero';
 
 const Home: NextPage = () => {
   return (

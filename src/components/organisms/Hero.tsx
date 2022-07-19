@@ -1,6 +1,6 @@
-import Badge from '@components/atoms/Badge';
-import Icon from '@components/atoms/Icon';
 import React from 'react';
+import Badge from '@atoms/Badge';
+import Icon from '@atoms/Icon';
 
 const Hero = () => {
   return (

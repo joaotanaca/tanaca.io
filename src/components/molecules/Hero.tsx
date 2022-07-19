@@ -49,8 +49,17 @@ const Hero = () => {
             objectFit="cover"
             layout="responsive"
           /> */}
-          <div className="w-full pb-[80%] bg-gray-900 rounded-3xl">
-            <Icon icon="html" />
+          <div className="w-full pb-[80%] bg-gray-900 rounded-3xl overflow-hidden">
+            <div className="flex w-full gap-3 p-3">
+              <Icon icon="html" size={80} />
+              <Icon icon="css" size={80} />
+              <Icon icon="javascript" size={80} />
+              <Icon icon="terminal" size={80} />
+              <Icon icon="bootstrap" size={80} />
+              <Icon icon="git" size={80} />
+              <Icon icon="tailwind" size={80} />
+              <Icon icon="typescript" size={80} />
+            </div>
           </div>
           <img
             className="absolute z-10 -bottom-10 -right-12"

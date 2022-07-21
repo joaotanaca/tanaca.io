@@ -33,12 +33,12 @@ const Hero = () => {
             >
               Juliana
             </a>
-            , amante de gatos e javascript. Apaixonado pelo front-end desde
-            2018, evoluindo a cada dia.
+            , amante de gatos e javascript. <br />
+            Apaixonado pelo front-end desde 2018, evoluindo a cada dia.
           </p>
         </div>
         <div className="images col-span-6 relative">
-          <img className="absolute z-10 -top-14 -left-14" src="/circle.svg" />
+          <img className="absolute -z-10 -top-14 -left-14" src="/circle.svg" />
           <div className="relative w-auto bg-gray-900 rounded-3xl overflow-hidden">
             <div className="animate-scroll flex w-fit overflow-hidden gap-3 p-3">
               <Icon icon="html" size={80} />
@@ -114,7 +114,7 @@ const Hero = () => {
             </div>
           </div>
           <img
-            className="absolute z-10 -bottom-10 -right-12"
+            className="absolute -z-10 -bottom-10 -right-12"
             src="/retangulo.svg"
           />
         </div>

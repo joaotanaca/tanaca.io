@@ -3,6 +3,7 @@ import React, { PropsWithChildren } from 'react';
 type Props = {
   type?: keyof typeof colors.primary;
   bg?: keyof typeof colors;
+  className?: string;
 };
 
 const colors = {
@@ -40,12 +41,13 @@ const Badge = ({
   children,
   bg = 'primary',
   type = 'default',
+  className = '',
 }: PropsWithChildren<Props>) => {
   return (
     <div
       className={`px-2 py-0.5 rounded-4xl ${
         colors[bg][type] || colors[bg].default
-      } w-fit text-sm leading-[1.125rem]`}
+      } w-fit text-sm leading-[1.125rem] ${className}`}
     >
       {children}
     </div>

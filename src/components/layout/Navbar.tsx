@@ -4,8 +4,8 @@ import React from 'react';
 const Navbar = () => {
   return (
     <div className="relative z-20">
-      <div className="absolute w-full py-7 flex items-center justify-between px-[5.5rem]">
-        <span className="text-3xl font-bold">Tanaca</span>
+      <div className="absolute w-full py-12 md:py-7 flex items-center justify-center md:justify-between md:px-[5.5rem]">
+        <span className="hidden md:block text-3xl font-bold">Tanaca</span>
         <ul className="flex relative gap-12 text-base font-medium text-gray-500">
           <div className="absolute -top-full -left-7 w-full flex gap-12">
             <Badge className="whitespace-nowrap -top-full -left-12 text-xs">

@@ -8,8 +8,8 @@ const Hero = () => {
       <div className="absolute w-full h-full -z-10 top-0 left-0">
         <img className="w-full h-full" src="/BG.png" alt="" />
       </div>
-      <div className="grid grid-cols-12 justify-center items-center container mx-auto gap-8 h-screen ">
-        <div className="info col-span-6 flex flex-col">
+      <div className="grid grid-cols-12 justify-center items-center container mx-auto gap-8 h-screen px-8 md:px-0">
+        <div className="info col-span-12 md:col-span-6 flex flex-col">
           <Badge>Front-end</Badge>
           <h1 className="text-gray-900 font-black text-6xl leading-[4.5rem] pb-6 tracking-tight">
             Olá, eu sou{' '}
@@ -37,7 +37,7 @@ const Hero = () => {
             Apaixonado pelo front-end desde 2018, evoluindo a cada dia.
           </p>
         </div>
-        <div className="images col-span-6 relative">
+        <div className="images hidden md:block col-span-6 relative">
           <img className="absolute -z-10 -top-14 -left-14" src="/circle.svg" />
           <div className="relative w-auto bg-gray-900 rounded-3xl overflow-hidden">
             <div className="animate-scroll flex w-fit overflow-hidden gap-3 p-3">

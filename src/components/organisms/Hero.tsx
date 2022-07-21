@@ -39,26 +39,78 @@ const Hero = () => {
         </div>
         <div className="images col-span-6 relative">
           <img className="absolute z-10 -top-14 -left-14" src="/circle.svg" />
-          {/* <Image
-            className="rounded-3xl"
-            quality={90}
-            src="/image-test.png"
-            alt="Test image"
-            width="100%"
-            height="75%"
-            objectFit="cover"
-            layout="responsive"
-          /> */}
-          <div className="w-full pb-[80%] bg-gray-900 rounded-3xl overflow-hidden">
-            <div className="flex w-full gap-3 p-3">
+          <div className="relative w-auto bg-gray-900 rounded-3xl overflow-hidden">
+            <div className="animate-scroll flex w-fit overflow-hidden gap-3 p-3">
               <Icon icon="html" size={80} />
-              <Icon icon="css" size={80} />
               <Icon icon="javascript" size={80} />
-              <Icon icon="terminal" size={80} />
-              <Icon icon="bootstrap" size={80} />
-              <Icon icon="git" size={80} />
-              <Icon icon="tailwind" size={80} />
               <Icon icon="typescript" size={80} />
+              <Icon icon="php" size={80} />
+              <Icon icon="java" size={80} />
+              <Icon icon="C#" size={80} />
+              <Icon icon="kotlin" size={80} />
+              <Icon icon="python" size={80} />
+              <Icon icon="html" size={80} />
+              <Icon icon="javascript" size={80} />
+              <Icon icon="typescript" size={80} />
+              <Icon icon="php" size={80} />
+              <Icon icon="java" size={80} />
+              <Icon icon="C#" size={80} />
+              <Icon icon="kotlin" size={80} />
+              <Icon icon="python" size={80} />
+            </div>
+            <div className="animate-scrollReverse flex w-fit overflow-hidden gap-3 p-3">
+              <Icon icon="css" size={80} />
+              <Icon icon="bootstrap" size={80} />
+              <Icon icon="tailwind" size={80} />
+              <Icon icon="chakra" size={80} />
+              <Icon icon="material" size={80} />
+              <Icon icon="less" size={80} />
+              <Icon icon="stylus" size={80} />
+              <Icon icon="sass" size={80} />
+              <Icon icon="css" size={80} />
+              <Icon icon="bootstrap" size={80} />
+              <Icon icon="tailwind" size={80} />
+              <Icon icon="chakra" size={80} />
+              <Icon icon="material" size={80} />
+              <Icon icon="less" size={80} />
+              <Icon icon="stylus" size={80} />
+              <Icon icon="sass" size={80} />
+            </div>
+            <div className="animate-scroll flex w-fit overflow-hidden gap-3 p-3">
+              <Icon icon="react" size={80} />
+              <Icon icon="vue" size={80} />
+              <Icon icon="angular" size={80} />
+              <Icon icon="gatsby" size={80} />
+              <Icon icon="node" size={80} />
+              <Icon icon="dotnet" size={80} />
+              <Icon icon="nextjs" size={80} />
+              <Icon icon="composer" size={80} />
+              <Icon icon="react" size={80} />
+              <Icon icon="vue" size={80} />
+              <Icon icon="angular" size={80} />
+              <Icon icon="gatsby" size={80} />
+              <Icon icon="node" size={80} />
+              <Icon icon="dotnet" size={80} />
+              <Icon icon="nextjs" size={80} />
+              <Icon icon="composer" size={80} />
+            </div>
+            <div className="animate-scrollReverse flex w-fit overflow-hidden gap-3 p-3">
+              <Icon icon="docker" size={80} />
+              <Icon icon="heroku" size={80} />
+              <Icon icon="git" size={80} />
+              <Icon icon="azure" size={80} />
+              <Icon icon="github" size={80} />
+              <Icon icon="bitbucket" size={80} />
+              <Icon icon="aws" size={80} />
+              <Icon icon="gitlab" size={80} />
+              <Icon icon="docker" size={80} />
+              <Icon icon="heroku" size={80} />
+              <Icon icon="git" size={80} />
+              <Icon icon="azure" size={80} />
+              <Icon icon="github" size={80} />
+              <Icon icon="bitbucket" size={80} />
+              <Icon icon="aws" size={80} />
+              <Icon icon="gitlab" size={80} />
             </div>
           </div>
           <img

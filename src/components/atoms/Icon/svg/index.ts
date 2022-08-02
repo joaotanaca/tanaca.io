@@ -31,6 +31,8 @@ import Github from './Github';
 import AWS from './AWS';
 import Bitbucket from './Bitbucket';
 import Azure from './Azure';
+import Logo from './Logo';
+import LogoWithText from './LogoWithText';
 
 export default {
   'aws': AWS,
@@ -58,6 +60,8 @@ export default {
   'angular': Angular,
   'dotnet': Dotnet,
   'gatsby': Gatsby,
+  'logo': Logo,
+  'logoWithText': LogoWithText,
   'nextjs': NextJs,
   'composer': Composer,
   'vue': Vue,

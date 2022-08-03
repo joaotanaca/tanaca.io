@@ -33,6 +33,7 @@ import Bitbucket from './Bitbucket';
 import Azure from './Azure';
 import Logo from './Logo';
 import LogoWithText from './LogoWithText';
+import IconTest from './IconTest';
 
 export default {
   'aws': AWS,
@@ -70,4 +71,5 @@ export default {
   'gitlab': Gitlab,
   'github': Github,
   'bitbucket': Bitbucket,
+  'test': IconTest,
 };

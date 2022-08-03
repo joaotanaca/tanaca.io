@@ -1,4 +1,3 @@
-import Badge from '@atoms/Badge';
 import Icon from '@atoms/Icon';
 import React from 'react';
 

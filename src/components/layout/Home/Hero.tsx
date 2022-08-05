@@ -12,29 +12,11 @@ const Hero = () => {
         <div className="info col-span-12 md:col-span-6 flex flex-col">
           <Badge>Front-end</Badge>
           <h1 className="text-gray-900 font-black text-6xl leading-[4.5rem] pb-6 tracking-tight">
-            Olá, eu sou{' '}
-            <a
-              className="text-green-400 transition-all"
-              href="https://www.linkedin.com/in/jo%C3%A3o-pedro-tanaca-ramos/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Tanaca
-            </a>
-            .
+            Dev javascript, apaixonado pelo Front.
           </h1>
           <p className="text-gray-500 font-medium text-xl">
-            Do litoral da baixada santista, marido da{' '}
-            <a
-              className="cursor-pointer text-green-500"
-              href="https://www.linkedin.com/in/juliana-cristina-359877173/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Juliana
-            </a>
-            , amante de gatos e javascript. <br />
-            Apaixonado pelo front-end desde 2018, evoluindo a cada dia.
+            Tenho uma frase que gosto e que pra mim descreve o que é programar
+            &quot;fazer o simples é o mais dificil&quot;.
           </p>
         </div>
         <div className="images hidden md:block col-span-6 relative">

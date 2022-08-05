@@ -8,7 +8,7 @@ const Navbar = () => {
         <Icon icon="logoWithText" size={260} />
         <ul className="flex relative gap-12 text-base font-medium text-gray-500">
           <li>
-            <a>Sobre</a>
+            <a href="#about">Sobre</a>
           </li>
           <li>
             <a>Contato</a>

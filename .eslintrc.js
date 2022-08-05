@@ -3,7 +3,11 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['plugin:react/recommended', 'google'],
+  extends: [
+    'plugin:@next/next/recommended',
+    'plugin:react/recommended',
+    'google',
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -18,5 +22,6 @@ module.exports = {
     'object-curly-spacing': 'off',
     'max-len': 'off',
     'arrow-parens': 'off',
+    '@next/next/no-img-element': 'off',
   },
 };

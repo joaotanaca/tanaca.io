@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import svg from './svg';
 
-export type IconProps = { size?: number; className?: string };
+export type IconProps = { size?: number; className?: string; color?: string };
 
 const Icon: React.FC<{ icon: keyof typeof svg } & IconProps> = ({
   icon,

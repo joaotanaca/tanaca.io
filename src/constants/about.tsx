@@ -39,9 +39,9 @@ const experiences: SectionCardProps[] = [
     title: 'IES2- Desenvolvedor React Native',
     description: (
       <>
-        OUTUBRO DE 2020 - DEZEMBRO DE 2020. <br /> Desenvolvimento de uma
-        aplicação para aulas online com React Native sem hooks, nem functional
-        components e com Jest para teste.
+        OUTUBRO DE 2020 - DEZEMBRO DE 2020. <br /> Desenvolvimento de aplicação
+        para aulas online com React Native sem hooks, nem functional components
+        e com Jest para teste.
       </>
     ),
     icon: 'react',
@@ -73,7 +73,7 @@ const experiences: SectionCardProps[] = [
     title: 'NTT Data - Desenvolvedor Front-end Senior',
     description: (
       <>
-        NOVEMBRO DE 2021 - Atualmente. <br /> Arquitetura e Desenvolvimento
+        NOVEMBRO DE 2021 - Atualmente. <br /> Arquitetura e Desenvolvimento de
         sistemas internos na venda de cartões em lojas com Next,
         react-testing-library, tailwind e styled-components.
       </>

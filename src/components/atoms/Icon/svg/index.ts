@@ -34,6 +34,9 @@ import Azure from './Azure';
 import Logo from './Logo';
 import LogoWithText from './LogoWithText';
 import IconTest from './IconTest';
+import Tel from './Tel';
+import Email from './Email';
+import Linkedin from './Linkedin';
 
 export default {
   'aws': AWS,
@@ -71,5 +74,8 @@ export default {
   'gitlab': Gitlab,
   'github': Github,
   'bitbucket': Bitbucket,
+  'tel': Tel,
+  'email': Email,
+  'linkedin': Linkedin,
   'test': IconTest,
 };

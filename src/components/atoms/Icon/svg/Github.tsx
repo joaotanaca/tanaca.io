@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconProps } from '..';
 
-const Github = ({ size = 24 }: IconProps) => {
+const Github = ({ size = 24, color = '#BBC3CF' }: IconProps) => {
   return (
     <svg width={size} height={size} viewBox="0 0 128 128">
-      <g className="fill-gray-300">
+      <g fill={color}>
         <path
           fillRule="evenodd"
           clipRule="evenodd"

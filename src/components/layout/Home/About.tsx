@@ -48,9 +48,10 @@ const About = () => {
         Disposto a ajudar, ensinar e mentorar pessoas a entrar na área.
       </p>
       <div className="col-span-12 grid grid-cols-3 gap-x-8 mt-8">
-        <div className="col-span-1 flex flex-col gap-3">
-          <SectionCards cards={experiencesLeft} />
-        </div>
+        <SectionCards
+          className="col-span-1 flex flex-col gap-3"
+          cards={experiencesLeft}
+        />
         <div className="col-span-1">
           <div className="relative h-[66%]">
             <Image
@@ -62,9 +63,10 @@ const About = () => {
 
           <SectionCard {...experiencesCurrent} />
         </div>
-        <div className="col-span-1 flex flex-col gap-3">
-          <SectionCards cards={experiencesRight} />
-        </div>
+        <SectionCards
+          className="col-span-1 flex flex-col gap-3"
+          cards={experiencesRight}
+        />
       </div>
     </section>
   );

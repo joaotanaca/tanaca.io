@@ -1,8 +1,30 @@
-import React from 'react';
+import React, { memo, useMemo } from 'react';
 import Badge from '@atoms/Badge';
 import Icon from '@atoms/Icon';
+import { carroselHero } from 'constants/carroselHero';
 
 const Hero = () => {
+  const renderIcons = useMemo(
+      () =>
+        carroselHero?.map((icons, index) => {
+          const renderIcon = icons?.map(icon => (
+            <Icon key={icon} icon={icon} size={80} />
+          ));
+          return (
+            <div
+              key={`container-icons-${index}`}
+              className={`${
+              index % 2 ? 'animate-scrollReverse' : 'animate-scroll'
+              } flex w-fit overflow-hidden gap-3 p-3`}
+            >
+              {renderIcon}
+              {renderIcon}
+            </div>
+          );
+        }),
+      [carroselHero],
+  );
+
   return (
     <section className="hero relative overflow-hidden bg-contain bg-no-repeat">
       <div className="absolute w-full h-full -z-10 top-0 left-0">
@@ -22,78 +44,7 @@ const Hero = () => {
         <div className="images hidden md:block col-span-6 relative">
           <img className="absolute -z-10 -top-14 -left-14" src="/circle.svg" />
           <div className="relative w-auto bg-gray-900 rounded-3xl overflow-hidden">
-            <div className="animate-scroll flex w-fit overflow-hidden gap-3 p-3">
-              <Icon icon="html" size={80} />
-              <Icon icon="javascript" size={80} />
-              <Icon icon="typescript" size={80} />
-              <Icon icon="php" size={80} />
-              <Icon icon="java" size={80} />
-              <Icon icon="C#" size={80} />
-              <Icon icon="kotlin" size={80} />
-              <Icon icon="python" size={80} />
-              <Icon icon="html" size={80} />
-              <Icon icon="javascript" size={80} />
-              <Icon icon="typescript" size={80} />
-              <Icon icon="php" size={80} />
-              <Icon icon="java" size={80} />
-              <Icon icon="C#" size={80} />
-              <Icon icon="kotlin" size={80} />
-              <Icon icon="python" size={80} />
-            </div>
-            <div className="animate-scrollReverse flex w-fit overflow-hidden gap-3 p-3">
-              <Icon icon="css" size={80} />
-              <Icon icon="bootstrap" size={80} />
-              <Icon icon="tailwind" size={80} />
-              <Icon icon="chakra" size={80} />
-              <Icon icon="material" size={80} />
-              <Icon icon="less" size={80} />
-              <Icon icon="stylus" size={80} />
-              <Icon icon="sass" size={80} />
-              <Icon icon="css" size={80} />
-              <Icon icon="bootstrap" size={80} />
-              <Icon icon="tailwind" size={80} />
-              <Icon icon="chakra" size={80} />
-              <Icon icon="material" size={80} />
-              <Icon icon="less" size={80} />
-              <Icon icon="stylus" size={80} />
-              <Icon icon="sass" size={80} />
-            </div>
-            <div className="animate-scroll flex w-fit overflow-hidden gap-3 p-3">
-              <Icon icon="react" size={80} />
-              <Icon icon="vue" size={80} />
-              <Icon icon="angular" size={80} />
-              <Icon icon="gatsby" size={80} />
-              <Icon icon="node" size={80} />
-              <Icon icon="dotnet" size={80} />
-              <Icon icon="nextjs" size={80} />
-              <Icon icon="composer" size={80} />
-              <Icon icon="react" size={80} />
-              <Icon icon="vue" size={80} />
-              <Icon icon="angular" size={80} />
-              <Icon icon="gatsby" size={80} />
-              <Icon icon="node" size={80} />
-              <Icon icon="dotnet" size={80} />
-              <Icon icon="nextjs" size={80} />
-              <Icon icon="composer" size={80} />
-            </div>
-            <div className="animate-scrollReverse flex w-fit overflow-hidden gap-3 p-3">
-              <Icon icon="docker" size={80} />
-              <Icon icon="heroku" size={80} />
-              <Icon icon="git" size={80} />
-              <Icon icon="azure" size={80} />
-              <Icon icon="github" size={80} />
-              <Icon icon="bitbucket" size={80} />
-              <Icon icon="aws" size={80} />
-              <Icon icon="gitlab" size={80} />
-              <Icon icon="docker" size={80} />
-              <Icon icon="heroku" size={80} />
-              <Icon icon="git" size={80} />
-              <Icon icon="azure" size={80} />
-              <Icon icon="github" size={80} />
-              <Icon icon="bitbucket" size={80} />
-              <Icon icon="aws" size={80} />
-              <Icon icon="gitlab" size={80} />
-            </div>
+            {renderIcons}
           </div>
           <img
             className="absolute -z-10 -bottom-10 -right-12"
@@ -105,4 +56,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default memo(Hero);

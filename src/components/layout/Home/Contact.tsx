@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
   return (
     <>
       <img src="/BG Wave.svg" className="w-full translate-y-[1px]" />
-      <div className="bg-gray-900">
+      <div id="contact" className="bg-gray-900">
         <SectionCards
           className="container mx-auto flex gap-8 justify-center py-[5.5rem] "
           cards={[

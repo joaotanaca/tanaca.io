@@ -32,16 +32,6 @@ const About = () => {
         .
       </h2>
       <p className="text-gray-500 text-center text-xl font-medium md:col-span-10 md:col-start-2">
-        Do litoral da baixada santista, marido da{' '}
-        <a
-          className="cursor-pointer text-green-500"
-          href="https://www.linkedin.com/in/juliana-cristina-359877173/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Juliana
-        </a>
-        , amante de gatos e javascript. <br />
         Desenvolvedor desde 2018, curioso desde sempre e com um ideal de evoluir
         e contribuir em projetos open source.
         <br />

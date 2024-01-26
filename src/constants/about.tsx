@@ -36,7 +36,7 @@ const experiences: SectionCardProps[] = [
     icon: 'react',
   },
   {
-    title: 'IES2- Desenvolvedor React Native',
+    title: 'IES2 — Desenvolvedor React Native',
     description: (
       <>
         OUTUBRO DE 2020 - DEZEMBRO DE 2020. <br /> Desenvolvimento de aplicação
@@ -47,7 +47,7 @@ const experiences: SectionCardProps[] = [
     icon: 'react',
   },
   {
-    title: 'EVT- Desenvolvedor React',
+    title: 'EVT — Desenvolvedor React',
     description: (
       <>
         DEZEMBRO DE 2020 - JULHO DE 2021. <br /> Arquitetura e Desenvolvimento
@@ -58,7 +58,7 @@ const experiences: SectionCardProps[] = [
     icon: 'react',
   },
   {
-    title: 'Laborit- Engenheiro Front-end',
+    title: 'Laborit — Engenheiro Front-end',
     description: (
       <>
         JULHO DE 2021 - SETEMBRO DE 2021. <br /> Engenharia no Front-End com
@@ -70,7 +70,7 @@ const experiences: SectionCardProps[] = [
     icon: 'react',
   },
   {
-    title: 'NTT Data - Desenvolvedor Front-end Senior',
+    title: 'NTT Data — Desenvolvedor Front-end Senior',
     description: (
       <>
         NOVEMBRO DE 2021 - Atualmente. <br /> Arquitetura e Desenvolvimento de

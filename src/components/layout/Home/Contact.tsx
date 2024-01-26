@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
       <img src="/BG Wave.svg" className="w-full translate-y-[1px]" />
       <div id="contact" className="bg-gray-900">
         <SectionCards
-          className="container mx-auto flex gap-8 justify-center py-[5.5rem] "
+          className="container mx-auto grid grid-cols-2 lg:flex gap-8 justify-center py-[5.5rem] px-4 lg:px-0"
           cards={[
             {
               title: <span className="text-white">Email</span>,
